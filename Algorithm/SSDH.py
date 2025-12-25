@@ -5,7 +5,7 @@ import networkx as nx
 import random
 import time
 import heapq
-import json  # 确保在文件顶部导入 json 库
+import json 
 import csv
 from datetime import datetime
 
@@ -306,7 +306,6 @@ def hypergraph_source_locator_v12(hyper_edges, node_to_hyperedges_map, sensor_in
 if __name__ == "__main__":
     file_path_list = [
                       'data/Algebra.txt']
-    FILE_PATH = 'data/Bars-Rev.txt'
     for FILE_PATH in file_path_list:
         REPEAT_TIME = 1000
         SENSOR_RATIO = 0.1
@@ -452,8 +451,6 @@ if __name__ == "__main__":
                     all_pairs_hop_count,
                     beta=0.5  
                 )
-                if candidate_count == 100:
-                    aaa += 1
                 total_candidates_count += candidate_count
 
                 if predicted_source_list:
@@ -502,7 +499,7 @@ if __name__ == "__main__":
                         correct_predictions,
                         f"{accuracy:.4f}",
                         f"{avg_candidates:.2f}",
-                        f"{avg_error_distance:.4f}" # <-- 新增
+                        f"{avg_error_distance:.4f}"
                     ]
                     writer.writerow(row_data)
                 print(f"本轮结果已成功追加到 {output_csv_file}")

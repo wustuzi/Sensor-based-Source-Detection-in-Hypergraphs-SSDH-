@@ -1,10 +1,10 @@
 # SSDH: Sensor-based Source Detection in Hypergraphs
 
-[cite_start]This repository contains the reference implementation and datasets for the paper **"Entropy-Driven Sensor Deployment and Source Detection in Hypergraphs"**, submitted to *Information Processing & Management (IPM)*[cite: 1].
+This repository contains the reference implementation and datasets for the paper **"Entropy-Driven Sensor Deployment and Source Detection in Hypergraphs"**, submitted to *Information Processing & Management (IPM)*.
 
 The project implements the **SSDH framework**, which includes:
-1.  [cite_start]An **Entropy-based Sensor Deployment Strategy** to maximize information gain[cite: 9].
-2.  [cite_start]A **Source Detection Algorithm** that combines topological distance with a novel path uncertainty-based score[cite: 10].
+1.  An **Entropy-based Sensor Deployment Strategy** to maximize information gain.
+2.  A **Source Detection Algorithm** that combines topological distance with a novel path uncertainty-based score.
 
 ## 📂 Repository Structure
 
